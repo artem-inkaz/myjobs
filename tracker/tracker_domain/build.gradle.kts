@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "ui.smart.onboarding_domain"
+    namespace = "ui.smart.tracker_domain"
     compileSdk = 34
 
     defaultConfig {
@@ -42,7 +42,14 @@ dependencies {
     ksp(libs.hilt.android.compiler)
     ksp(libs.androidx.hilt.compiler)
 
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.core)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+
+ksp {
+    arg("room.schemaLocation", "$projectDir/schemas")
 }
