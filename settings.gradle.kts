@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "MyJobs"
 include(":app")
 include(":core")
+include(":core-ui")
