@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="error_unknown">Неизвестная ошибка</string>
-    <string name="welcome_text">Привет! Давай\'s узнаем немного о Вас :)</string>
+    <string name="welcome_text">Привет! Давай\ узнаем немного о Вас :)</string>
     <string name="lets_go">Давайте\ начнем!</string>
     <string name="whats_your_gender">Ваш пол?</string>
     <string name="male">Мужчина</string>
@@ -11,9 +11,9 @@
     <string name="whats_your_height">Ваш\ рост?</string>
     <string name="kg">кг</string>
     <string name="cm">см</string>
-    <string name="error_age_cant_be_empty">Возраст\не может быть пустым</string>
-    <string name="error_height_cant_be_empty">Рост\не может быть пустым</string>
-    <string name="error_weight_cant_be_empty">Вес\не может быть пустым</string>
+    <string name="error_age_cant_be_empty">Возраст\ не может быть пустым</string>
+    <string name="error_height_cant_be_empty">Рост\ не может быть пустым</string>
+    <string name="error_weight_cant_be_empty">Вес\ не может быть пустым</string>
     <string name="kcal">Ккал</string>
     <string name="carbs">Углеводы</string>
     <string name="protein">Белки</string>
