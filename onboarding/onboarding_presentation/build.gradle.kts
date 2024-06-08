@@ -43,8 +43,8 @@ android {
 
 dependencies {
     implementation(project(":core"))
-    implementation(project(":onboarding:onboarding_domain"))
     implementation(project(":core-ui"))
+    implementation(project(":onboarding:onboarding_domain"))
 
     // Hilt
     implementation(libs.hilt.android)

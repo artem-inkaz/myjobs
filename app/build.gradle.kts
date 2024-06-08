@@ -62,6 +62,9 @@ dependencies {
     implementation(project(":core-ui"))
     implementation(project(":onboarding:onboarding_domain"))
     implementation(project(":onboarding:onboarding_presentation"))
+    implementation(project(":tracker:tracker_data"))
+    implementation(project(":tracker:tracker_domain"))
+    implementation(project(":tracker:tracker_presentation"))
 
     // Hilt
     implementation(libs.hilt.android)
