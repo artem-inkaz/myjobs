@@ -7,6 +7,7 @@ import ui.smart.tracker_data.mapper.toTrackedFoodEntity
 import ui.smart.tracker_data.remote.OpenFoodApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import timber.log.Timber
 import ui.smart.tracker_domain.model.TrackableFood
 import ui.smart.tracker_domain.model.TrackedFood
 import ui.smart.tracker_domain.repository.TrackerRepository
@@ -42,6 +43,7 @@ class TrackerRepositoryImpl(
                     .mapNotNull { it.toTrackableFood() }
             )
         } catch(e: Exception) {
+            Timber.e("searchFood error ${e.message}")
             e.printStackTrace()
             Result.failure(e)
         }
